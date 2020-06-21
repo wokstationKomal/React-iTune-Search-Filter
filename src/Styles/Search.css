@@ -1,0 +1,129 @@
+
+body {
+	background: #DDD;
+    font-size: 15px;
+    background: url('http://i.hizliresim.com/v4Qykv.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Roboto', Tahoma, Arial, sans-serif;
+    line-height: 1.5;
+    font-size: 13px;
+}
+
+/* Container */
+.container {
+	margin: 5px auto;
+	width: 100%;
+	max-width: 800px;
+}
+
+/* navbar */
+.nav-text{
+    color: rgb(184,184,184);
+}
+
+/* Search bar */
+#search-content{
+    margin-top: 30px;
+}
+
+.search-label > #search {
+    outline: 0;
+    height: 42px;
+    width: 350px;
+    line-height: 42px;
+    padding: 0 16px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #212121;
+    border: 0;
+    float: left;
+    -webkit-border-radius: 4px 0 0 4px;
+    border-radius: 4px 0 0 4px;
+    border: 1px solid lightslategrey;
+  }
+  
+  .search-label > #search:focus {
+    outline: 0;
+    background-color: #FFF;
+  }
+  
+  .search-label > .search-icon {
+    outline: 0;
+    background: none;
+    background-color: rgba(38, 50, 56, 0.8);
+    float: left;
+    height: 42px;
+    width: 42px;
+    text-align: center;
+    line-height: 42px;
+    border: 0;
+    color: #FFF;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 16px;
+    text-rendering: auto;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    -webkit-transition: background-color .4s ease;
+    transition: background-color .4s ease;
+    -webkit-border-radius: 0 4px 4px 0;
+    border-radius: 0 4px 4px 0;
+  }
+  
+  .search-label > .search-icon:hover {
+    background-color: rgba(0, 150, 136, 0.8);
+  }
+
+  div#search-content {
+    display: grid;
+}
+
+
+/* Heading */
+.heading {
+	font-size: 30px;
+	padding: 16px 0;
+	color: #444;
+	text-align: center;
+}
+
+/* Result container */
+.results-container{
+    display: inline-block;
+    flex-flow: wrap;
+    width: 50%;
+}
+
+/* Result Item */
+.result-item{
+    display: flex;
+    color: #000000;
+    margin: 30px;
+}
+
+.song-name{
+    margin-top: 15px;
+}
+
+a.result-item:hover {
+    text-decoration: none;
+    color: #000000;
+}
+
+.result-details{
+    margin: auto 30px;
+}
+
+.image-wrapper>img{
+    height: 130px;
+    width: 130px;
+}
+
+/* show and hide */
+.show{
+    display: block;
+}
+
+.hide{
+    display: none;
+}
