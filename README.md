@@ -1,4 +1,8 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+SOme screenshot of search filter:
+![react-itune1](https://user-images.githubusercontent.com/65625474/89210655-26491080-d5de-11ea-8055-a42f3d0e0682.png)
+![react-itune2](https://user-images.githubusercontent.com/65625474/89210684-2fd27880-d5de-11ea-9f39-717d0216d909.png)
+
 
 ## Available Scripts
 
